@@ -1,0 +1,43 @@
+.env# Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+
+# Environment variable files
+.env
+.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# LangChain/Chroma local DB
+chroma/
+chroma_db/
+
+# Output or log files
+*.log
+*.sqlite3
+*.db
+
+# Local notebooks or test docs (선택)
+*.docx
+*.pdf
+*.xlsx
+.gitmessage
+
+# IDE 설정 무시
+.idea/
+*.iml
